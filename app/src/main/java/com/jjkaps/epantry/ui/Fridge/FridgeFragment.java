@@ -205,8 +205,8 @@ public class FridgeFragment extends Fragment {
         addedItem = fridgeDialog.findViewById(R.id.inputItem);
         addedQuantity = fridgeDialog.findViewById(R.id.inputQuantity);
         btDone.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
+                @Override
+                public void onClick(View view) {
                 //get item
                 item = addedItem.getText().toString();
                 quantity = addedQuantity.getText().toString();
@@ -237,7 +237,7 @@ public class FridgeFragment extends Fragment {
                                      else {
                                          //check if item is null
                                          if (item.length() == 0) {
-                                            Toast.makeText(getContext(), "Item can't be null!", Toast.LENGTH_SHORT).show();
+                                            Toast.makeText(getContext(), "Item can't be empty!", Toast.LENGTH_SHORT).show();
                                         }
                                          //add non-null item
                                          if (item.length() != 0 ){

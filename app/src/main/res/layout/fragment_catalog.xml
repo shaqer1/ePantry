@@ -6,6 +6,22 @@
     android:layout_height="match_parent"
     tools:context=".ui.Catalog.CatalogFragment">
 
+    <ImageButton
+        android:id="@+id/ibt_remove"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="344dp"
+        android:background="@null"
+        android:contentDescription="@string/minus_desc"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_remove_shoppinglist"
+        android:tint="@color/colorPrimaryDark"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.944"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.883" />
+
     <TextView
         android:id="@+id/txt_emptyList"
         android:layout_width="wrap_content"
@@ -14,10 +30,10 @@
         android:visibility="visible"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.182"
+        app:layout_constraintHorizontal_bias="0.154"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.108" />
+        app:layout_constraintVertical_bias="0.196" />
 
     <SearchView
         android:id="@+id/search_view"
@@ -42,7 +58,7 @@
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/search_view"
-        app:layout_constraintVertical_bias="0.019" />
+        app:layout_constraintVertical_bias="0.067" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/moveToFridge"
+        android:title="Add to Fridge"
+        />
+    <item
+        android:id="@+id/moveToShopping"
+        android:title="Add to Shopping List"/>
+    <item
+        android:id="@+id/removeItem"
+        android:title="Delete Item"/>
+</menu>
